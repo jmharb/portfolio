@@ -1,3 +1,11 @@
-.testing {
+.page-viewport {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-color-1 {
+    background-color: rgb(55, 55, 55);
+}
+.bg-color-2 {
     background-color: red;
 }
