@@ -8,24 +8,44 @@
 <nav id="main-nav">
     <div class="nav-group">
         <div class="nav-item">
+            <a href="#about">About</a>
+        </div>
+        <div class="nav-item">
             <a href="#projects">Projects</a>
         </div>
         <div class="nav-item">
-            <a href="#experience">Experience</a>
+            <a href="#work-experience">Work Experience</a>
         </div>
         <div class="nav-item">
-            <a href="#about">About</a>
+            <a href="#skills">Skils</a>
         </div>
     </div>
 </nav>
 <main class="page">
-    <header>
+    <header >
         <div class="page-header-image-full">
             <img src="images/background1.jpg" align="middle">
         </div>
-        <h1 class="page-title"><%= title %></h1>
     </header>
-    <section id="projects">
+    <section id="about">
+        <header class="section-header">
+            <h2>About</h2>
+        </header>
+        <div class="section-body">
+            <div class="row">
+                <div class="col">
+                    <h3>John Mathew Harb</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dignissimos ducimus in  maiores, perferendis perspiciatis qui! Ea, excepturi nihil quo quos saepe similique voluptatem. Dolore dolorum eum incidunt itaque praesentium!</p>
+                </div>
+                <div class="col">
+                    <div class="profile-picture">
+                        <img src="images/portrait.jpg" alt="Portrait of Mat Harb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="bg-color-1 bg-dark">
         <header class="section-header">
             <h2>Projects</h2>
         </header>
@@ -62,9 +82,35 @@
             </div>
         </div>
     </section>
-    <section id="experience" class="bg-color-1 bg-dark">
+    <section id="work-experience">
         <header class="section-header">
-            <h2>Experience</h2>
+            <h2>Work Experience</h2>
+        </header>
+        <div class="section-body">
+            <ol class="work-experience">
+                <li>
+                    <h3>Ancestry: Front-End Developer <span class="work-date">January 2017 - April 2018</span></h3>
+                    <ul class="work-description">
+                        <li>Lead the modernization of UI Components</li>
+                        <li>Developed a distributed system responsible for publishing static assets to a CDN and S3 bucket</li>
+                        <li>Leveraged RESTful API patterns, ReactJS, NodeJS, Docker, and Kubernetes</li>
+                        <li>Implemented Infrastructure as Code using Terraform templates</li>
+                        <li>Managed Jenkins build pipelines using Groovy</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Ancestry: Front-End Developer Internship <span class="work-date">April 2015 - January 2017</span></h3>
+                    <ul class="work-description">
+                        <li>Established an automated test framework for UI components to increase confidence in new feature deployments</li>
+                        <li>Contributed to the creation of shared UI components used by millions of users each day</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section id="skills" class="bg-color-1 bg-dark">
+        <header class="section-header">
+            <h2>Skills</h2>
         </header>
         <div class="section-body">
             <div class="row">
@@ -92,28 +138,7 @@
 
         </div>
     </section>
-    <section id="about">
-        <header class="section-header">
-            <h2>About</h2>
-        </header>
-        <div class="section-body">
-            <div class="row">
-                <div class="col">
-                    <h3>John Mathew Harb</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dignissimos ducimus in  maiores, perferendis perspiciatis qui! Ea, excepturi nihil quo quos saepe similique voluptatem. Dolore dolorum eum incidunt itaque praesentium!</p>
-                </div>
-                <div class="col">
-                    <div class="profile-picture">
-                        <img src="images/portrait.jpg" alt="Portrait of Mat Harb">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis, dolores ea ex excepturi impedit in laborum molestias nemo nesciunt omnis perspiciatis quae quasi saepe tenetur veritatis vitae. Eveniet, hic.</p></div>
-            </div>
 
-        </div>
-    </section>
     <footer id="main-footer" class="bg-color-2 bg-dark">
         <a href="https://github.com/jmharb" target="_blank">github</a>
         <span>|</span>
