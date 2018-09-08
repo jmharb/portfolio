@@ -54,6 +54,27 @@ const config = {
             templateParameters: {
                 title: 'Portfolio'
             }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'project-1.html',
+            template: 'src/project-1.html',
+            templateParameters: {
+                title: 'Project 1'
+            }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'project-2.html',
+            template: 'src/project-2.html',
+            templateParameters: {
+                title: 'Project 2'
+            }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'project-3.html',
+            template: 'src/project-3.html',
+            templateParameters: {
+                title: 'Project 3'
+            }
         })
     ]
 };
