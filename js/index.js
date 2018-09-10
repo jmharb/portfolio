@@ -1,6 +1,3 @@
-import 'normalize.css';
-import './index.css';
-
 function progressComponent(element) {
     const instance = {}
     instance.element = element;
