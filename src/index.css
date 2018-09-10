@@ -71,7 +71,7 @@ a {
     padding: 40px;
 }
 #main-footer a {
-    color: #ffffff;
+    color: #000;
 }
 #main-footer a:hover {
     color: rgb(242, 170, 36);
@@ -184,5 +184,4 @@ a {
     color: rgba(50, 50, 50);
     font-weight: 300;
 }
-.work-description {
-}
+.work-description {}

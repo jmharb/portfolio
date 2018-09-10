@@ -36,4 +36,3 @@ function initPage() {
 }
 
 document.addEventListener('DOMContentLoaded', initPage);
-// window.addEventListener('hashchange', activateTab, false);
